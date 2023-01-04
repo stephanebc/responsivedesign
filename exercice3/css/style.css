@@ -102,14 +102,30 @@
         margin: 0;
     }
 
+    nav {
+        width: 100vw;
+    }
 
-    nav ul {
+    nav div {
+        background-color: blueviolet;
+        width: auto;
+    }
+
+
+    nav ul div {
         display: flex;
         justify-content: space-evenly;
-        background-color: mediumslateblue;
+        background-color: blueviolet;
         border-style: dashed;
         border-color: #FFFFFF;
         border-top: 0px;
+        width: 90vw;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    nav ul {
+        background-color: mediumslateblue;
     }
 
     nav ul li {
@@ -121,6 +137,9 @@
         border-top: 0rem;
         text-align: center;
         padding-right: 3rem;
+        width: 90vw;
+        background-color: blueviolet;
+        font-size: 0.9rem;
     }
 
     h2 {
@@ -161,5 +180,65 @@
 
 @media screen and (min-width: 1024px) {
 
-    
+    header figcaption {
+        font-size: 1.5rem;
+        margin-left: 45rem;
     }
+
+    header figcaption p {
+        margin: 0;
+    }
+
+    nav ul div {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: blueviolet;
+        border-style: dashed;
+        border-color: #FFFFFF;
+        border-top: 0px;
+        width: 60vw;
+    }
+
+    nav ul li {
+        color: #FFFFFF;
+        border-right: 0.125rem;
+        border-color: white;
+        border-style: dashed;
+        border-bottom: 0rem;
+        width: 60vw;
+        font-size: 0.9rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .divarticles {
+        display: flex;
+    }
+
+    .divarticles .blocsarticles {
+        border-style: solid;
+        margin-right: 2.5rem;
+        border-color: mediumslateblue;
+      
+    }
+
+   .divarticles figure {
+    display: block;
+   }
+
+
+   article li {
+    width: 30vw;
+    margin: 0;
+    }
+
+    footer ul {
+        display: flex;
+        color: #FFFFFF;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    }
+}
