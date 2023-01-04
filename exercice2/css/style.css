@@ -68,9 +68,11 @@ footer li {
     margin-right: 1rem;
 }
 
-@media screen (and min-width: 1270px) {
-    nav ul {
-        display: flex;
-        justify-content: flex-start;
+@media screen and (min-width: 1270px) {
+    nav ul li {
+      display: flex;
+      justify-content: flex-start;
+      width: 10vw;
     }
-}
+  }
+  
