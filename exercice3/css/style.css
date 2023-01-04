@@ -157,6 +157,9 @@
         padding: 5rem;
     }
 
-/* Ecrans à partir de 1024px */    
+/* Ecrans à partir de 1024px */   
 
-}
+@media screen and (min-width: 1024px) {
+
+    
+    }
